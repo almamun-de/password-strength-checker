@@ -19,3 +19,6 @@ If the password meets all the criteria, it will be considered **Strong**. Otherw
    ```bash
    git clone https://github.com/almamun-de/password-strength-checker.git
    cd password-strength-checker
+
+Run the script:
+python3 password_strength_checker.py
