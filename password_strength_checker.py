@@ -32,3 +32,7 @@ def check_password_strength(password):
     # If all conditions are met, the password is strong
     return "Strong password!"
 
+if __name__ == "__main__":
+    password = input("Enter your password: ")
+    strength = check_password_strength(password)
+    print(f"Password strength: {strength}")
